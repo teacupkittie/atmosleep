@@ -49,7 +49,7 @@ const Home: NextPage = () => {
               sleep.
               <br />
               <br />
-              Achieve your dreams, day and night. You'll no longer need to
+              Achieve your dreams, day and night. You&apos;ll no longer need to
               choose between productivity, entertainment, and sleep—have your
               cake and eat it, too.
             </p>
