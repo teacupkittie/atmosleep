@@ -32,25 +32,38 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <div className={styles.intro}>
           <div className={styles.text}>
-            <h1 className={styles.title}>Meet Atmosleep.</h1>
+            <h1 className={styles.title}>Meet Atmos.</h1>
             <p>
-              Achieve your dreams, day and night. Atmosleep is an app that makes
-              it possible to learn while you sleep. Play study notes, learn a
-              new language, listen to relaxing music, or tune in for guided
-              meditation. No need to choose between productivity and sleep—have
-              your cake and eat it, too.
+              An <b>all-in-one adaptive AI pillow</b> with:
+              <ul>
+                <li>adjustable plushness</li>
+                <li>LED lighting</li>
+                <li>embedded sleep analytics</li>
+                <li>
+                  a speaker system for your favorite music, meditations, and
+                  study tools
+                </li>
+              </ul>
+              ...all activated through your voice. Atmos listens to your needs
+              to allow for screen-free comfort as you lounge or prepare to
+              sleep.
+              <br />
+              <br />
+              Achieve your dreams, day and night. You'll no longer need to
+              choose between productivity, entertainment, and sleep—have your
+              cake and eat it, too.
             </p>
           </div>
           <div className={styles.image}>
-            <Image src="/mockup.png" height="2000" width="2240" />
+            <Image src="/atmos.png" width="1591" height="760" />
           </div>
         </div>
         <div id="feedback" className={styles.feedback}>
-          <h1>We want to hear your thoughts.</h1>
+          <h1>We want to hear your thoughts!</h1>
           <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLScHViYF9UWCU0FD5jSi0pEg1PpWKKybZMDQySBfLOw4vodwbA/viewform?embedded=true"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSeFyVjAFop2yfJsLtX4QR5BzqfJGacP8xRAhvnlTjlok6H9nQ/viewform?embedded=true"
             width="640"
-            height="1500"
+            height="1800"
             frameBorder="0"
             scrolling="no"
           >
